@@ -1,0 +1,7 @@
+DATA QUALITY SUMMARY
+
+1. Missing values identified in some datasets.
+2. Certain columns require datatype conversion.
+3. Duplicate NAV records observed.
+4. Date formatting inconsistencies found.
+5. AMFI scheme codes validated between datasets.
