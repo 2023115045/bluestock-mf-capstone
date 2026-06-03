@@ -1,10 +1,9 @@
 import sqlite3
-import pandas as pd
 
-conn = sqlite3.connect("data/db/bluestock_mf.db")
+conn = sqlite3.connect("data/bluestock_mf.db")
 
-df = pd.read_sql("SELECT * FROM nav_history LIMIT 10", conn)
+cursor = conn.cursor()
 
-print(df)
+cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
 
-conn.close()
+print(cursor.fetchall())
