@@ -1,53 +1,45 @@
-# Mutual Fund Analytics Capstone Project
+# Bluestock Mutual Fund Analytics Capstone
 
-## Overview
+## Project Overview
+Mutual fund analytics platform developed during Bluestock Fintech internship.
 
-This project focuses on collecting, storing, cleaning, and analyzing Mutual Fund NAV (Net Asset Value) data. The project implements an ETL pipeline, stores data in SQLite, performs exploratory data analysis, calculates performance metrics, and provides insights through visualizations.
+## Features
+- ETL Pipeline
+- Data Cleaning
+- SQLite Database
+- EDA Analysis
+- Performance Analytics
+- Power BI Dashboard
+- Advanced Risk Metrics
 
-## Objectives
-
-- Collect mutual fund NAV data from MFAPI.
-- Clean and process the data.
-- Store the data in SQLite database.
-- Perform exploratory data analysis (EDA).
-- Calculate performance metrics.
-- Build visualizations and dashboards.
-
-## Technologies Used
-
+## Technologies
 - Python
 - Pandas
 - NumPy
-- Matplotlib
+- SQLAlchemy
 - SQLite
-- Jupyter Notebook
 - Power BI
 
-## Workflow
+## Folder Structure
+data/
+notebooks/
+scripts/
+reports/
+dashboard/
 
-1. Data Collection
-2. Data Cleaning
-3. Database Storage
-4. Exploratory Data Analysis
-5. Performance Analysis
-6. Advanced Analytics
-7. Dashboard Development
+## Running the Project
 
-## Key Metrics
+pip install -r requirements.txt
 
-- Daily Returns
-- Sharpe Ratio
-- Volatility
-- Value at Risk (VaR)
+python scripts/run_pipeline.py
 
-## Project Structure
+## Dashboard
 
-```text
-bluestock_mf_capstone/
-├── data/
-├── notebooks/
-├── scripts/
-├── sql/
-├── dashboard/
-├── reports/
-└── README.md
+Open:
+bluestock_mf_dashboard.pbix
+
+## Deliverables
+- Final Report
+- Power BI Dashboard
+- Analytics Notebooks
+- Risk Analysis
